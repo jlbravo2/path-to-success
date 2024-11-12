@@ -1,0 +1,346 @@
+/* -------------------- CSS BY JERIZE-------------------------------------- */
+/* -------------------- IMPORTED FONTS -------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap");
+/*-------------------- CSS REST ---------------------------------------------------*/
+/* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
+html {
+  background-color: #484fb7;
+}
+body {
+  margin: 0;
+}
+h1,
+h2 {
+  font-family: Kavoon;
+}
+* {
+  font-family: Inter;
+}
+h1 {
+  font-size: 3em;
+  color: white;
+}
+h2 {
+  font-size: 2em;
+  color: white;
+}
+h3 {
+  font-size: 1.5em;
+  color: #e9bb57;
+}
+h4 {
+  font-size: 1.15em;
+  color: #484fb7;
+}
+img {
+  width: 50px;
+}
+header {
+  width: 100%;
+  height: 100%;
+}
+header h1 {
+  background-color: #6b8fe7;
+  color: white;
+  margin: 0;
+  padding: 55px 0 25px 0;
+  text-align: center;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  position: relative;
+  z-index: 2;
+}
+nav h2 {
+  font-size: 1.5em;
+  font-family: Inter;
+  color: black;
+  font-style: italic;
+}
+nav a {
+  text-decoration: none;
+  list-style: none;
+}
+.unlock {
+  background-color: #d9526f;
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+  margin: 10px;
+  padding: 25px 0 5px 0;
+  color: white;
+  margin: -10px auto 0 auto;
+  width: 98%;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  position: relative;
+  z-index: 1;
+}
+.navList {
+  right: 0;
+  top: 85%;
+}
+.menu {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  background-color: #e9bb57;
+  text-transform: uppercase;
+  padding: 12px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.menu h2 {
+  margin: 0;
+}
+.menu ul {
+  display: none;
+}
+.service-callout {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  justify-content: center;
+  width: 280px;
+  /* height: 350px; */
+}
+.flexible-learning {
+  position: relative;
+}
+.grid-container {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 170px 170px;
+  grid-template-rows: 100px 100px;
+  margin: 10px;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  padding: 0%;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.grid-item:nth-child(1) {
+  background-color: #4ca7c0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.grid-item:nth-child(2) {
+  background-color: #6b8fe7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.grid-item:nth-child(3) {
+  background-color: #e9bb57;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.grid-item:nth-child(4) {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+#chooseus {
+  background-color: #d9526f;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 100%;
+  width: 100%;
+}
+.list-title {
+  background-color: #e9bb57;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 250px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.content-item {
+  text-align: center;
+  background-color: white;
+  border-color: white;
+  width: 103px;
+}
+.title-item:nth-child(1) {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.title-item:nth-child(2) {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.the-tables {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border: none;
+}
+.content-item:nth-child(1) {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.first-step {
+  background-color: #d9526f;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  padding-right: 100%;
+  width: 100%;
+}
+.first-step a {
+  text-decoration: none;
+}
+.schedule-now {
+  width: 350px;
+  padding: 10px 0 10px 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  border-radius: 10px;
+  filter: drop-shadow(5px 5px black);
+}
+.first-step p {
+  color: white;
+}
+footer {
+  width: 100%;
+  height: 100%;
+  background-color: #6b8fe7;
+  color: white;
+  margin-bottom: 20px;
+  padding: 55px 0 25px 0;
+  text-align: center;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+}
+footer a {
+  color: white;
+}
+/* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
+/*-------------------- MEDIA QUERY (medium) --------------------------------*/
+@media screen and (min-width: 600px) {
+  .coaching .service-callouts {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    grid-template-rows: repeat(2, 250px);
+    grid-row-gap: 170px;
+    grid-column-gap: 100px;
+  }
+  .service-callout {
+    height: 350px;
+  }
+  .relationship-coaching {
+    width: 630px;
+    height: 200px;
+  }
+  .group-coaching .service-callouts {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    grid-template-rows: repeat(1, 250px);
+    grid-column-gap: 100px;
+    grid-row-gap: 170px;
+    margin-bottom: 200px;
+  }
+  .grid-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+  }
+  .interactive-learning {
+    width: 630px;
+    height: 200px;
+  }
+  .flexible-learning {
+    width: 630px;
+    height: 200px;
+  }
+  .grid-item {
+    padding: 20px;
+  }
+  .table-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 10px;
+  }
+  .the-tables {
+    height: 200px;
+  }
+  .first-step {
+    display: flex;
+    justify-content: center;
+  }
+  .schedule-now {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 1750px;
+    margin: 70px 20px 5px 5px;
+  }
+}
+/*-------------------- MEDIA QUERY (medium) --------------------------------*/
+/*-------------------- MEDIA QUERY (large) ------------------------------------*/
+@media screen and (min-width: 836px) {
+  .menu ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+  }
+  .menu h2 {
+    display: none;
+  }
+  .the-tables {
+    display: flex;
+    justify-content: center;
+  }
+  .services {
+    display: flex;
+  }
+  .service {
+    width: 25%;
+  }
+  .services .service-callouts {
+    display: block;
+    margin-bottom: 0;
+  }
+  .services .service-callout {
+    width: auto;
+    height: auto;
+  }
+}
+/*-------------------- MEDIA QUERY (large) ------------------------------------*/
+/*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
+@media screen and (min-width:900px){
+  body{
+    margin:0 100px 0 100px;
+  }
+}
+/*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
